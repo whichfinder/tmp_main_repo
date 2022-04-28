@@ -1,3 +1,6 @@
 [submodule "path"]
-	path = path
+	path = external
+	url = git@github.com:whichfinder/tmp_additional_repo.git
+[submodule "external"]
+	path = external
 	url = git@github.com:whichfinder/tmp_additional_repo.git
