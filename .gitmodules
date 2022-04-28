@@ -1,0 +1,3 @@
+[submodule "path"]
+	path = path
+	url = git@github.com:whichfinder/tmp_additional_repo.git
