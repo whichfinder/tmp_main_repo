@@ -9,5 +9,6 @@ fi
 echo $branch;
 for item in $(echo */)
 do
-    cd $item && git pull origin $branch
+
+    cd $item && git submodule init && git submodule update && git pull origin $branch
 done;
