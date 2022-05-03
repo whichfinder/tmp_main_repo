@@ -2,3 +2,4 @@
 	path = external
 	url = git@github.com:whichfinder/tmp_additional_repo.git
 	branch = main
+	update = merge
