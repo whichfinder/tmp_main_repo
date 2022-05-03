@@ -6,4 +6,4 @@ if [[ ! -z $1 ]]
         branch="main"
 fi
 echo $branch;
-git submodule foreach && git submodule init && git submodule update && git pull origin $branch
+git submodule foreach --recursive git checkout $branch && git submodule init && git submodule update --remote --merge
